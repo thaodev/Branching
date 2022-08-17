@@ -10,3 +10,4 @@
 * `git status` - who status of current working directory
 * `git log` - show history of commits
 * `git log --oneline` - show history of commits but only as commit message (compact)
+* `git config -l` list local git configuration settings
