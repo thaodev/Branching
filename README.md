@@ -16,3 +16,7 @@
 * `git branch branchName` - create branch   `branchName`
 * `git checkout branchName` - witch to branch  `branchName`
 * `git checkout -n otherBranch` - switch to branch `otherBranch`, creating it if it doesn't exist
+
+### Other commands
+* `git help` - list git subcommands and options
+* `git config --help` - show options for  `git config`
