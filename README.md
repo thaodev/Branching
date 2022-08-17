@@ -13,3 +13,20 @@ Practice with merging and merge conflicts
 * `git log` - show history of commits
 * `git log --oneline` - show history of commits but only as commit message (compact)
 * `git config -l` list local git configuration settings
+
+
+### Branch commands
+* `git branch` - List local branches, highlight current branch
+* `git branch branchName` - create branch   `branchName`
+* `git checkout branchName` - witch to branch  `branchName`
+* `git checkout -n otherBranch` - switch to branch `otherBranch`, creating it if it doesn't exist
+
+### Remote commands
+* `git remote add origin someUrl` - connect local repo to remote repo   url   as `origin`
+* `git push origin branchName` - push local commits to remote repo into branch `branchName`
+* `git pull origin branchName` - pull remote branch
+`branchName` into local current branch
+
+### Other commands
+* `git help` - list git subcommands and options
+* `git config --help` - show options for  `git config`
